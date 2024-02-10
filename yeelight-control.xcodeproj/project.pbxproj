@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34623902B782E1C0030CA4F /* yeelight_controlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346238F2B782E1C0030CA4F /* yeelight_controlApp.swift */; };
+		F34623922B782E1C0030CA4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34623912B782E1C0030CA4F /* ContentView.swift */; };
+		F34623942B782E1D0030CA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34623932B782E1D0030CA4F /* Assets.xcassets */; };
+		F34623972B782E1D0030CA4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34623962B782E1D0030CA4F /* Preview Assets.xcassets */; };
+		F34623A22B782E1D0030CA4F /* yeelight_controlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34623A12B782E1D0030CA4F /* yeelight_controlTests.swift */; };
+		F34623AC2B782E1D0030CA4F /* yeelight_controlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34623AB2B782E1D0030CA4F /* yeelight_controlUITests.swift */; };
+		F34623AE2B782E1D0030CA4F /* yeelight_controlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34623AD2B782E1D0030CA4F /* yeelight_controlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F346239E2B782E1D0030CA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34623842B782E1C0030CA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F346238B2B782E1C0030CA4F;
+			remoteInfo = "yeelight-control";
+		};
+		F34623A82B782E1D0030CA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34623842B782E1C0030CA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F346238B2B782E1C0030CA4F;
+			remoteInfo = "yeelight-control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F346238C2B782E1C0030CA4F /* yeelight-control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yeelight-control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F346238F2B782E1C0030CA4F /* yeelight_controlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeelight_controlApp.swift; sourceTree = "<group>"; };
+		F34623912B782E1C0030CA4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F34623932B782E1D0030CA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34623962B782E1D0030CA4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F34623982B782E1D0030CA4F /* yeelight_control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yeelight_control.entitlements; sourceTree = "<group>"; };
+		F346239D2B782E1D0030CA4F /* yeelight-controlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yeelight-controlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34623A12B782E1D0030CA4F /* yeelight_controlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeelight_controlTests.swift; sourceTree = "<group>"; };
+		F34623A72B782E1D0030CA4F /* yeelight-controlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yeelight-controlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34623AB2B782E1D0030CA4F /* yeelight_controlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeelight_controlUITests.swift; sourceTree = "<group>"; };
+		F34623AD2B782E1D0030CA4F /* yeelight_controlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeelight_controlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34623892B782E1C0030CA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F346239A2B782E1D0030CA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34623A42B782E1D0030CA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34623832B782E1C0030CA4F = {
+			isa = PBXGroup;
+			children = (
+				F346238E2B782E1C0030CA4F /* yeelight-control */,
+				F34623A02B782E1D0030CA4F /* yeelight-controlTests */,
+				F34623AA2B782E1D0030CA4F /* yeelight-controlUITests */,
+				F346238D2B782E1C0030CA4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F346238D2B782E1C0030CA4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F346238C2B782E1C0030CA4F /* yeelight-control.app */,
+				F346239D2B782E1D0030CA4F /* yeelight-controlTests.xctest */,
+				F34623A72B782E1D0030CA4F /* yeelight-controlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F346238E2B782E1C0030CA4F /* yeelight-control */ = {
+			isa = PBXGroup;
+			children = (
+				F346238F2B782E1C0030CA4F /* yeelight_controlApp.swift */,
+				F34623912B782E1C0030CA4F /* ContentView.swift */,
+				F34623932B782E1D0030CA4F /* Assets.xcassets */,
+				F34623982B782E1D0030CA4F /* yeelight_control.entitlements */,
+				F34623952B782E1D0030CA4F /* Preview Content */,
+			);
+			path = "yeelight-control";
+			sourceTree = "<group>";
+		};
+		F34623952B782E1D0030CA4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F34623962B782E1D0030CA4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F34623A02B782E1D0030CA4F /* yeelight-controlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34623A12B782E1D0030CA4F /* yeelight_controlTests.swift */,
+			);
+			path = "yeelight-controlTests";
+			sourceTree = "<group>";
+		};
+		F34623AA2B782E1D0030CA4F /* yeelight-controlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F34623AB2B782E1D0030CA4F /* yeelight_controlUITests.swift */,
+				F34623AD2B782E1D0030CA4F /* yeelight_controlUITestsLaunchTests.swift */,
+			);
+			path = "yeelight-controlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F346238B2B782E1C0030CA4F /* yeelight-control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34623B12B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-control" */;
+			buildPhases = (
+				F34623882B782E1C0030CA4F /* Sources */,
+				F34623892B782E1C0030CA4F /* Frameworks */,
+				F346238A2B782E1C0030CA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yeelight-control";
+			productName = "yeelight-control";
+			productReference = F346238C2B782E1C0030CA4F /* yeelight-control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F346239C2B782E1D0030CA4F /* yeelight-controlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34623B42B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-controlTests" */;
+			buildPhases = (
+				F34623992B782E1D0030CA4F /* Sources */,
+				F346239A2B782E1D0030CA4F /* Frameworks */,
+				F346239B2B782E1D0030CA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F346239F2B782E1D0030CA4F /* PBXTargetDependency */,
+			);
+			name = "yeelight-controlTests";
+			productName = "yeelight-controlTests";
+			productReference = F346239D2B782E1D0030CA4F /* yeelight-controlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34623A62B782E1D0030CA4F /* yeelight-controlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34623B72B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-controlUITests" */;
+			buildPhases = (
+				F34623A32B782E1D0030CA4F /* Sources */,
+				F34623A42B782E1D0030CA4F /* Frameworks */,
+				F34623A52B782E1D0030CA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34623A92B782E1D0030CA4F /* PBXTargetDependency */,
+			);
+			name = "yeelight-controlUITests";
+			productName = "yeelight-controlUITests";
+			productReference = F34623A72B782E1D0030CA4F /* yeelight-controlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34623842B782E1C0030CA4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F346238B2B782E1C0030CA4F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F346239C2B782E1D0030CA4F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F346238B2B782E1C0030CA4F;
+					};
+					F34623A62B782E1D0030CA4F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F346238B2B782E1C0030CA4F;
+					};
+				};
+			};
+			buildConfigurationList = F34623872B782E1C0030CA4F /* Build configuration list for PBXProject "yeelight-control" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34623832B782E1C0030CA4F;
+			productRefGroup = F346238D2B782E1C0030CA4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F346238B2B782E1C0030CA4F /* yeelight-control */,
+				F346239C2B782E1D0030CA4F /* yeelight-controlTests */,
+				F34623A62B782E1D0030CA4F /* yeelight-controlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F346238A2B782E1C0030CA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34623972B782E1D0030CA4F /* Preview Assets.xcassets in Resources */,
+				F34623942B782E1D0030CA4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F346239B2B782E1D0030CA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34623A52B782E1D0030CA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34623882B782E1C0030CA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34623922B782E1C0030CA4F /* ContentView.swift in Sources */,
+				F34623902B782E1C0030CA4F /* yeelight_controlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34623992B782E1D0030CA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34623A22B782E1D0030CA4F /* yeelight_controlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34623A32B782E1D0030CA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34623AC2B782E1D0030CA4F /* yeelight_controlUITests.swift in Sources */,
+				F34623AE2B782E1D0030CA4F /* yeelight_controlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F346239F2B782E1D0030CA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F346238B2B782E1C0030CA4F /* yeelight-control */;
+			targetProxy = F346239E2B782E1D0030CA4F /* PBXContainerItemProxy */;
+		};
+		F34623A92B782E1D0030CA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F346238B2B782E1C0030CA4F /* yeelight-control */;
+			targetProxy = F34623A82B782E1D0030CA4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F34623AF2B782E1D0030CA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F34623B02B782E1D0030CA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F34623B22B782E1D0030CA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "yeelight-control/yeelight_control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeelight-control/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F34623B32B782E1D0030CA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "yeelight-control/yeelight_control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeelight-control/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F34623B52B782E1D0030CA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-controlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeelight-control.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yeelight-control";
+			};
+			name = Debug;
+		};
+		F34623B62B782E1D0030CA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-controlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeelight-control.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yeelight-control";
+			};
+			name = Release;
+		};
+		F34623B82B782E1D0030CA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-controlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "yeelight-control";
+			};
+			name = Debug;
+		};
+		F34623B92B782E1D0030CA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jeusto.yeelight-controlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "yeelight-control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34623872B782E1C0030CA4F /* Build configuration list for PBXProject "yeelight-control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34623AF2B782E1D0030CA4F /* Debug */,
+				F34623B02B782E1D0030CA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34623B12B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34623B22B782E1D0030CA4F /* Debug */,
+				F34623B32B782E1D0030CA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34623B42B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-controlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34623B52B782E1D0030CA4F /* Debug */,
+				F34623B62B782E1D0030CA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34623B72B782E1D0030CA4F /* Build configuration list for PBXNativeTarget "yeelight-controlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34623B82B782E1D0030CA4F /* Debug */,
+				F34623B92B782E1D0030CA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34623842B782E1C0030CA4F /* Project object */;
+}
