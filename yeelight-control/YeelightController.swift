@@ -36,4 +36,9 @@ class YeelightController {
         let command = "{\"id\":1,\"method\":\"set_bright\",\"params\":[\(brightness),\"smooth\",500]}\r\n"
         sendCommand(command)
     }
+
+    func setColor(_ color: Int, duration: Int) {
+        let command = "{\"id\":1,\"method\":\"set_rgb\",\"params\":[\(color),\"smooth\",\(duration)]}\r\n"
+        sendCommand(command)
+    }
 }
